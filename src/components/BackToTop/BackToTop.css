@@ -1,0 +1,37 @@
+.BackToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .backtobutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    background-color:  #342f29;;
+  }
+
+.backtobutton:hover{
+    background-color: black;
+}
+  /* Media Queries ==========> */
+  @media screen and (max-width: 767px) {
+    .BackToTop {
+      bottom: 10px;
+      right: 10px;
+    }
+  
+    .backtobutton {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+    }
+  }
