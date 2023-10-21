@@ -26,7 +26,6 @@ const Home = () => {
 
                 <div className='home-text-part'>
                     <h2>David Harutyunyan
-                        <TextTypingComponent></TextTypingComponent>
                         <svg
                             width="36"
                             height="36"
@@ -76,6 +75,7 @@ const Home = () => {
                                 fill="#EBA352"
                             ></path>
                         </svg>
+                        {/* <TextTypingComponent></TextTypingComponent> */}
                     </h2>
                     <h3>Front End Developer</h3>
                 

@@ -1,0 +1,94 @@
+.portfolio-part {
+    margin-top: 9.5rem;
+}
+
+.portfolio-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-header-text h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #28231d;
+}
+
+.portfolio-header-text span {
+    color: #5a5959;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Single column for mobile devices */
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    grid-gap: 1rem; /* Optional: Add some gap between grid items */
+}
+
+/* For tablets and larger devices (768px and above) */
+@media screen and (min-width: 580px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr); /* Two items in one row */
+    }
+}
+
+/* For desktops and larger devices (992px and above) */
+@media screen and (min-width: 992px) {
+    .project-container {
+        grid-template-columns: repeat(2, 400px); /* Two items in one row */
+    }
+}
+
+.project-card {
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    color: #5a5959;
+}
+
+.project-image-div {
+    width: 245px;
+    overflow: hidden;
+    border-radius: 1rem; /* Apply border-radius to the container */
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 2s ease; /* Move transition property here */
+}
+
+.project-image-div:hover .project-image {
+    transform: scale(1.1); /* Apply scale transformation to the image on hover */
+}
+
+.project-title {
+    font-size: 18px;
+    color: #28231d;
+}
+
+.project-description {
+    font-size: 15px;
+}
+
+.project-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.project-button-icon {
+    transition: 0.4s;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.project-button:hover .project-button-icon {
+    transform: translateX(0.25rem);
+}

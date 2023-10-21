@@ -18,8 +18,8 @@ const NavigationBar = () => {
           onClick={() => setIsMobile(false)}  >
                <a href="#Home"> <li>Home</li></a>
                <a href='#About'> <li>About</li></a>
-               <a href='#'> <li>Education</li></a>
-               <a href='#'>  <li>Portfolio</li></a>
+               <a href='#Education'> <li>Education</li></a>
+               <a href='#Portfolio'>  <li>Portfolio</li></a>
                <a href='#'>  <li>Contact</li></a>
           
 

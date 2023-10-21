@@ -16,6 +16,8 @@ const App = () => {
       <BackToTop></BackToTop>
         <Home></Home>
         <About></About>
+        <Education></Education>
+        <Portfolio></Portfolio>
       </div>
   )
 }

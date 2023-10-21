@@ -185,11 +185,14 @@ a:hover{
     .home-text-part h2 {
         font-size: 24px;
     }
-
+    .home-text-part h3{
+        font-size: 20px;
+    }
     .home-text-part span {
         font-size: 16px;
     }
 
+   
     .home-text-part button {
         padding: 0.7rem 1rem;
         font-size: 15px;
