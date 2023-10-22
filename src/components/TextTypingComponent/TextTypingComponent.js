@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import './TextTypingComponent.css'
 const TextTypingComponent = () => {
   const [text, setText] = useState("");
   const messages = [
@@ -33,10 +33,8 @@ const TextTypingComponent = () => {
   }, [text, index, isTyping]);
 
   return (
-    <p
-      style={{ fontSize: "16px", color: "#5a5959", whiteSpace: "pre-line" }}
-      dangerouslySetInnerHTML={{ __html: text }}
-    />
+    <p className="typed-text" style={{ whiteSpace: "pre-line" }} dangerouslySetInnerHTML={{ __html: text }} />
+
   );
 };
 

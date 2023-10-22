@@ -50,10 +50,7 @@ ul li:hover {
 /* Media Queries =========> */
 
 @media screen and (max-width: 600px) {
-.nav-bar-container {
-    margin-top: 0.1rem;
-   
-}
+
     .logo-part {
         margin-right: 10rem; 
     }

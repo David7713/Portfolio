@@ -1,3 +1,4 @@
+/* Common styles for all screen sizes */
 .portfolio-part {
     margin-top: 9.5rem;
 }
@@ -21,58 +22,45 @@
 
 .project-container {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); /* Single column for mobile devices */
+    grid-template-columns: repeat(2, 400px);
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
-    grid-gap: 1rem; /* Optional: Add some gap between grid items */
-}
-
-/* For tablets and larger devices (768px and above) */
-@media screen and (min-width: 580px) {
-    .project-container {
-        grid-template-columns: repeat(2, 1fr); /* Two items in one row */
-    }
-}
-
-/* For desktops and larger devices (992px and above) */
-@media screen and (min-width: 992px) {
-    .project-container {
-        grid-template-columns: repeat(2, 400px); /* Two items in one row */
-    }
+    grid-gap: 1rem;
 }
 
 .project-card {
-    border: 1px solid rgba(0,0,0,0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1.25rem;
     border-radius: 1rem;
     color: #5a5959;
 }
 
 .project-image-div {
-    width: 245px;
+    width: 295px;
     overflow: hidden;
-    border-radius: 1rem; /* Apply border-radius to the container */
+    border-radius: 1rem;
 }
 
 .project-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: transform 2s ease; /* Move transition property here */
+    transition: transform 0.5s ease;
 }
 
 .project-image-div:hover .project-image {
-    transform: scale(1.1); /* Apply scale transformation to the image on hover */
+    transform: scale(1.1);
 }
 
 .project-title {
-    font-size: 18px;
+    font-size: 16px;
     color: #28231d;
 }
 
 .project-description {
     font-size: 15px;
+    margin-top: 0.5rem;
 }
 
 .project-button-container {
@@ -80,6 +68,8 @@
     flex-direction: row;
     justify-content: space-between;
     font-size: 14px;
+    margin-top: 0.5rem;
+   
 }
 
 .project-button-icon {
@@ -91,4 +81,29 @@
 
 .project-button:hover .project-button-icon {
     transform: translateX(0.25rem);
+}
+
+/* Media queries for tablet devices (above 480px and up to 768px) */
+@media (min-width: 600px) and (max-width: 768px) {
+    .project-container {
+        grid-template-columns: repeat(2, calc(50% - 1rem)); /* 50% width with a 1rem gap on both sides */
+    }
+}
+
+/* Media queries for mobile devices (up to 480px) */
+@media (max-width: 600px) {
+    .project-container {
+        grid-template-columns: repeat(1, calc(100% - 2rem)); /* 100% width with a 2rem gap on both sides */
+        margin-top: 2rem;
+        grid-gap: 1rem; /* Optional: Add some gap between grid items */
+    }
+
+    .project-card {
+        padding: 1rem;
+        
+    }
+
+    .project-image-div {
+        width: 100%;
+    }
 }

@@ -1,0 +1,13 @@
+
+.typed-text{
+    color: #5a5959;
+    font-size: 16px;
+}
+
+
+
+@media (max-width: 480px) {
+.typed-text{
+    font-size:13px ;
+}
+}

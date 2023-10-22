@@ -75,10 +75,10 @@ const Home = () => {
                                 fill="#EBA352"
                             ></path>
                         </svg>
-                        {/* <TextTypingComponent></TextTypingComponent> */}
+                 
                     </h2>
                     <h3>Front End Developer</h3>
-                
+                    <TextTypingComponent></TextTypingComponent>
                     <button>Say Hello
                         <svg
                             class="button__icon"
