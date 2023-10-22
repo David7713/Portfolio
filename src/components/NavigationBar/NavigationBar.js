@@ -10,7 +10,7 @@ const NavigationBar = () => {
 
     <div className='nav-bar-container'>
 
-        <div className='logo-part'>David</div>
+     <a href='#Home'><div className='logo-part'>David</div></a> 
 
 
       
@@ -20,7 +20,7 @@ const NavigationBar = () => {
                <a href='#About'> <li>About</li></a>
                <a href='#Education'> <li>Education</li></a>
                <a href='#Portfolio'>  <li>Portfolio</li></a>
-               <a href='#'>  <li>Contact</li></a>
+               <a href='#Contact'>  <li>Contact</li></a>
           
 
             </ul>

@@ -1,5 +1,6 @@
 import React from 'react'
 import aboutImage from '../../assets/profile.jpg'
+import {BsPersonCheckFill} from 'react-icons/bs'
 import './About.css'
 
 import {AiFillFileText} from 'react-icons/ai'
@@ -11,7 +12,7 @@ const About = () => {
 
       <div className='about-header-text'>
         <h2>About Me</h2>
-        <span>My Introduction</span>
+        <span>My Introduction <BsPersonCheckFill></BsPersonCheckFill></span>
       </div>
 
       <div className='about-container' id='About'> 

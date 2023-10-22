@@ -79,7 +79,7 @@ const Home = () => {
                     </h2>
                     <h3>Front End Developer</h3>
                     <TextTypingComponent></TextTypingComponent>
-                    <button>Say Hello
+                   <a href='#Contact'><button>Say Hello
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@ const Home = () => {
                                 fill="#white"
                             ></path>
                         </svg>
-                    </button>
+                    </button></a> 
                     <div className='scroll-down'> <a href='#About'>
                         <svg
                             width="32px"

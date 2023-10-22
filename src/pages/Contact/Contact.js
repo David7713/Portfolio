@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 import './Contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsArrowRightShort} from 'react-icons/bs'
+import {BiMessageDetail} from 'react-icons/bi'
 import { FiLinkedin } from "react-icons/fi"
 import { FiInstagram } from "react-icons/fi"
 
@@ -15,6 +16,8 @@ import * as Yup from 'yup'
 const Contact = () => {
     const form = useRef();
     const [message, setMessage] = useState(null);
+    const [isSuccess, setIsSuccess] = useState(false);
+
 
 
     const formik = useFormik({
@@ -41,29 +44,30 @@ const Contact = () => {
 
       const sendEmail = (e) => {
         e.preventDefault();
-      
+
         // Check if the form is valid and fields are touched and not empty
         if (formik.isValid && formik.dirty && formik.values.name && formik.values.email && formik.values.comment) {
-          emailjs
-            .sendForm('service_mnfe0g9', 'template_5mdi5xf', form.current, 'oICT_JpN-7UIzpFkL')
-            .then(() => {
-              setMessage('Email sent successfully!');
-            })
-            .catch((error) => {
-              setMessage('Error sending email. Please try again later.');
-              console.error('Error sending email:', error);
-            });
+            emailjs
+                .sendForm('service_mnfe0g9', 'template_5mdi5xf', form.current, 'oICT_JpN-7UIzpFkL')
+                .then(() => {
+                    setIsSuccess(true);
+                    setMessage('Message Succesfully Sent!');
+                })
+                .catch((error) => {
+                    setIsSuccess(false);
+                    setMessage('Error sending email. Please try again later.');
+                    console.error('Error sending email:', error);
+                });
         } else {
+            setIsSuccess(false);
             setMessage('Form is not valid or some fields are empty.');
-
         }
-      };
-
+    };
   return (
-    <div className='contact-part'>
+    <div className='contact-part' id='Contact'>
         <div className='contact-header-text'>
         <h2>Contact Me</h2>
-        <span>Get in Touch</span>
+        <span>Get in Touch <BiMessageDetail></BiMessageDetail></span>
       </div>
 
 
@@ -71,13 +75,14 @@ const Contact = () => {
     <div className='contact-content-container'>
         <div className='contact-social-media-part'>
            <h4>Talk to me</h4>
-        <div>
-       <label> <AiOutlineMail></AiOutlineMail> </label>        
-        <h4>Email</h4>
-        <span>Davo00771330@gmail.com</span>
-        <a href='https://mail.google.com/mail/u/0/#inbox' target='_blank' className='project-button'> Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
+           <div>
+  <h4>Email</h4>
+  <span>Davo00771330@gmail.com</span>
+  <a href='mailto:Davo00771330@gmail.com' className='project-button'>
+    Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort>
+  </a>
+</div>
 
-        </div>
         <div>
         <label> <FiLinkedin></FiLinkedin> </label>         
         <h4>Linkedin</h4>
@@ -104,7 +109,11 @@ const Contact = () => {
     <h4>Get In Touch</h4>
 
 
-    {message && <p className='error-massage'>{message}</p>}
+    {message && (
+            <p className={`message ${isSuccess ? 'success' : 'error'}`}>
+                {message}
+            </p>
+        )}
  <div className='input-container'>
           <input
             type='text'

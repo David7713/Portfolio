@@ -116,10 +116,22 @@ align-items: center;
 .form-submit-button:hover{
     background-color: black;
 }
-.error-massage{
-    color:red;
+.message {
     font-size: 13px;
+    margin-top: 1rem;
+    text-align: center;
 }
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+
+
 
 
 /* Media query for tablets */

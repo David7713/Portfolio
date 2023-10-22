@@ -8,7 +8,7 @@ const Portfolio = () => {
 
 <div className='portfolio-header-text'>
         <h2>Portfolio</h2>
-        <span>Most Recent Works</span>
+        <span>Most Recent Works ⭐️</span>
       </div>
 
 
@@ -20,8 +20,8 @@ const Portfolio = () => {
         <h3 className='project-title'>{item.title}</h3>
         <p className='project-description'>{item.description}</p>
             <div className='project-button-container'>
-            <a href='#' className='project-button'> Demo <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
-        <a href='#' className='project-button'>Code <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
+            <a href={item.link} target='_blank' className='project-button'> Demo <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
+        <a href={item.github} target='_blank' className='project-button'>Code <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
             </div>
         </div>
       })}
