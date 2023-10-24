@@ -1,11 +1,14 @@
-import image1 from "../../assets/Portfolio-Screenshots/Portal-Screenshot.png"
-import image2 from "../../assets/Portfolio-Screenshots/Belote-Screenshot.png"
-import image3 from "../../assets/Portfolio-Screenshots/Rare-Screenshot.png"
-import image4 from "../../assets/Portfolio-Screenshots/Weather-Screenshot.png"
+import portalImage from "../../assets/Portfolio-Screenshots/Portal-Screenshot.png"
+import beloteImage from "../../assets/Portfolio-Screenshots/Belote-Screenshot.png"
+import rareImage from "../../assets/Portfolio-Screenshots/Rare-Screenshot.png"
+import weatherImage from "../../assets/Portfolio-Screenshots/Weather-Screenshot.png"
+
+
+
 const data = [
     {
         "id": 1,
-        "image":image1,
+        "image":portalImage,
         "title":"Portal",
         "description":"Portal is a user-friendly tourism website",
         "link":"https://david7713.github.io/Project-Portal/",
@@ -16,7 +19,7 @@ const data = [
     ,
     {
         "id": 2,
-        "image":image2,
+        "image":beloteImage,
         "title":"Belote",
         "description":"An Information Website",
         "link":"https://david7713.github.io/Belote-Club/",
@@ -28,7 +31,7 @@ const data = [
  
     {
         "id": 3,
-        "image":image3,
+        "image":rareImage,
         "title":"Rare",
         "description":"E-Commerce Website",
         "link":"https://david7713.github.io/Rare/",
@@ -38,7 +41,7 @@ const data = [
     },
     {
         "id": 4,
-        "image":image4,
+        "image":weatherImage,
         "title":"Weather",
         "description":"Weather App with Forecast",
         "link":"https://david7713.github.io/Weather-App/",

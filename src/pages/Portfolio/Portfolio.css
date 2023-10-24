@@ -83,6 +83,9 @@
     transform: translateX(0.25rem);
 }
 
+
+
+/* Media Queries =========> */
 /* Media queries for tablet devices (above 480px and up to 768px) */
 @media (min-width: 600px) and (max-width: 768px) {
     .project-container {

@@ -1,4 +1,4 @@
-.home-container{
+.home-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -19,97 +19,97 @@
 .home-icons-part ul li {
     margin-top: 1rem;
 }
-a {
-    color: #5a5959;
-}
-a:hover{
-    color: #28231d;
-}
+
 
 .home-text-part {
-    position: relative; 
+    position: relative;
     margin-top: 1rem;
 }
 
-.home-text-part h2{
+.home-text-part h2 {
     color: #28231d;
     font-size: 40px;
     margin-top: 1rem;
 }
 
-.home-text-part h3{
+.home-text-part h3 {
     color: #28231d;
     font-size: 25px;
 
 }
 
-.home-text-part button{
+.home-text-part button {
     margin-top: 3rem;
     padding: 1.2rem 3rem;
     background-color: #28231d;
-    color:white;
+    color: white;
     border-radius: 1rem;
     font-size: 20px;
     cursor: pointer;
     text-align: center;
 }
 
-.home-text-part button:hover{
+.home-text-part button:hover {
     background-color: black;
 }
 
 
-.home-image-part{
+.home-image-part {
     width: 400px;
     height: 300px;
 }
 
-.home-image-part img{
+.home-image-part img {
     width: 100%;
     height: auto;
     margin-right: 3rem;
-    box-shadow: inset 0 0 0 9px rgb(255,255,255 / 30%);
-    animation:profile__animate 8s ease-in-out infinite 1s;
+    box-shadow: inset 0 0 0 9px rgb(255, 255, 255 / 30%);
+    animation: profile__animate 8s ease-in-out infinite 1s;
 
 }
 
 @keyframes profile__animate {
-    0%{
+    0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
-    50%{
+
+    50% {
         border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
     }
-    100%{
+
+    100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
 }
 
-.scroll-down{
+.scroll-down {
     margin-top: 4rem;
     font-size: 15px;
-    
-}
-.scroll-down a{
-    text-decoration: none;
-  
-}
-.scroll-down span{
-    font-size: 15px;
-    margin-left: 0.5rem;
-    
+
 }
 
-.wheel{
+.scroll-down a {
+    text-decoration: none;
+
+}
+
+.scroll-down span {
+    font-size: 15px;
+    margin-left: 0.5rem;
+
+}
+
+.wheel {
     animation: scroll 2s ease infinite;
 }
 
 @keyframes scroll {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    30%{
-        transform:translateY(3.72rem);
+
+    30% {
+        transform: translateY(3.72rem);
     }
 }
 
@@ -139,14 +139,14 @@ a:hover{
     }
 
     .home-icons-part ul li {
-        margin: 0 1rem; 
+        margin: 0 1rem;
     }
 
     .home-image-part {
         width: 80%;
         max-width: 300px;
         height: 200px;
-        order: -1; 
+        order: -1;
     }
 
     .home-image-part img {
@@ -185,20 +185,23 @@ a:hover{
     .home-text-part h2 {
         font-size: 24px;
     }
-    .home-text-part h3{
+
+    .home-text-part h3 {
         font-size: 20px;
     }
+
     .home-text-part span {
         font-size: 16px;
     }
 
-   
+
     .home-text-part button {
         padding: 0.7rem 1rem;
         font-size: 15px;
         margin-top: 1.5rem;
     }
-    .home-image-part img{
+
+    .home-image-part img {
         margin-top: 1rem;
     }
 }

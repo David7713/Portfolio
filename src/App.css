@@ -7,7 +7,15 @@
 body{
   font-family: 'Poppins', sans-serif;
 
+
 }
 html{
   scroll-behavior: smooth;
+}
+a {
+  color: #5a5959;
+  text-decoration: none;
+}
+a:hover{
+  color: #28231d;
 }

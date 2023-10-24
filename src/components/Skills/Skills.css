@@ -1,28 +1,18 @@
-.skills-container{
+.skills-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.skills-container h2{
+.skills-container h2 {
     font-size: 24px;
     margin-top: 2rem;
 }
-.skills-container svg{
+
+.skills-container svg {
     width: 30px;
     height: 30px;
     margin-top: 2rem;
-   
-}
-
-
-
-@media (max-width: 480px) {
-    .skills-container svg{
-    
-
-    }
 
 }
-

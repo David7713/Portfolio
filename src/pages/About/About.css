@@ -1,4 +1,3 @@
-/* Initial Styles */
 
 .about-part {
     margin-top: 9.5rem;
@@ -16,6 +15,7 @@
     font-weight: 600;
     color: #28231d;
 }
+
 
 .about-header-text span {
     color: #5a5959;
@@ -50,7 +50,7 @@
     background-color: black;
 }
 
-/* Media Queries for Responsive Design */
+/* Media Queries ==========> */
 
 /* Tablet */
 @media (max-width: 768px) {
@@ -74,7 +74,7 @@
 
     .about-container button {
         margin-top: 2rem;
-        margin-left: 0;
+ 
     }
 }
 
@@ -88,6 +88,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+       
     }
 
     .about-part-image img {
@@ -98,5 +99,6 @@
     .about-container button {
         font-size: 18px;
         padding: 0.5rem 1rem;
+        margin-left: 0;
     }
 }
