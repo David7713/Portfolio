@@ -20,10 +20,10 @@ const About = () => {
 
       <div className='about-container' id='About'>
 
-        <div className='about-part-image'>
+        {/* <div className='about-part-image'>
 
           <img src={aboutImage}></img>
-        </div>
+        </div> */}
 
         <div className='about-part-text'>
 

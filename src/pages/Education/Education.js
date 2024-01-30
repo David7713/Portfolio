@@ -50,7 +50,7 @@ const Education = () => {
                         <span className='education-subtitle'>
                             NPUA-Yerevan
                         </span>
-                        <div className='education-calendar'><BsCalendarWeek></BsCalendarWeek>  2019-2026</div></div>
+                        <div className='education-calendar'><BsCalendarWeek></BsCalendarWeek>  2019-2025</div></div>
 
                     <div>
                         <span className="education-rounder"></span>

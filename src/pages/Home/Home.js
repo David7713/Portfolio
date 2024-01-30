@@ -143,9 +143,9 @@ const Home = () => {
 
 
 
-                <div className='home-image-part'>
+                {/* <div className='home-image-part'>
                     <img src={profileImage}></img>
-                </div>
+                </div> */}
 
             </div>
         </div>

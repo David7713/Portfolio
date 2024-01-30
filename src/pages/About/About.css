@@ -28,11 +28,11 @@
     margin-top: 5rem;
 }
 
-.about-part-image img {
+/* .about-part-image img {
     width: 429px;
     height: 300px;
     border-radius: 2rem;
-}
+} */
 
 .about-container button {
     margin-top: 3rem;
@@ -67,10 +67,10 @@
         align-items: center;
     }
 
-    .about-part-image img {
+    /* .about-part-image img {
         width: 300px;
         height: 200px;
-    }
+    } */
 
     .about-container button {
         margin-top: 2rem;
@@ -91,10 +91,10 @@
        
     }
 
-    .about-part-image img {
+    /* .about-part-image img {
         width: 250px;
         height: 150px;
-    }
+    } */
 
     .about-container button {
         font-size: 18px;
