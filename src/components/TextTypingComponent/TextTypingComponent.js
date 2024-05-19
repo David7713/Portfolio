@@ -3,7 +3,7 @@ import './TextTypingComponent.css'
 const TextTypingComponent = () => {
   const [text, setText] = useState("");
   const messages = [
-    "Front-End Developer in Yerevan specializing <br> in user-friendly web interfaces seeking <br> opportunities for growth and learning"
+    "Front-End Developer from Yerevan, specializing <br> in user-friendly web interfaces and  seeking <br> opportunities for growth and learning"
   ];
   const [index, setIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);

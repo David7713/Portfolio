@@ -82,7 +82,7 @@ const Contact = () => {
           <h4>Talk to me</h4>
           <div>
             <h4>Email</h4>
-            <span>Davo00771330@gmail.com</span>
+            <span>Davo00771339@gmail.com</span>
             <a href='mailto:Davo00771330@gmail.com' className='project-button'>
               Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort>
             </a>
@@ -91,13 +91,13 @@ const Contact = () => {
           <div>
             <label> <FiLinkedin></FiLinkedin> </label>
             <h4>Linkedin</h4>
-            <span>David Harutyunyan</span>
-            <a href='https://www.linkedin.com/in/david-harutyunyan-2ab756238/' target='_blank' className='project-button'> Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
+            <span>Davit Harutyunyan</span>
+            <a href='https://www.linkedin.com/in/davit-harutyunyan-2ab756238/' target='_blank' className='project-button'> Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
           </div>
           <div>
             <label> <FiInstagram></FiInstagram> </label>
             <h4>Instagram</h4>
-            <span>David Harutyunyan</span>
+            <span>Davit Harutyunyan</span>
             <a href='https://www.instagram.com/davo1301/' target='_blank' className='project-button'> Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort></a>
           </div>
 

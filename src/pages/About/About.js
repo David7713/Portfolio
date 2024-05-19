@@ -1,8 +1,7 @@
 import React from 'react'
 import './About.css'
 
-import aboutImage from '../../assets/profile.jpg'
-import CV from '../../assets/David CV.pdf'
+import CV from '../../assets/Davit CV.pdf'
 
 import { BsPersonCheckFill } from 'react-icons/bs'
 import { AiFillFileText } from 'react-icons/ai'

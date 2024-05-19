@@ -6,9 +6,9 @@ import { FiLinkedin } from "react-icons/fi"
 import { FiInstagram } from "react-icons/fi"
 import { AiOutlineArrowDown } from "react-icons/ai"
 
+// import profileImage from '../Home/profileImage.jpg'
 
 
-import profileImage from '../../assets/profile.jpg'
 import TextTypingComponent from '../../components/TextTypingComponent/TextTypingComponent'
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
 
                 <div className='home-text-part'>
-                    <h2>David Harutyunyan
+                    <h2>Davit Harutyunyan
                         <svg
                             width="36"
                             height="36"
@@ -142,10 +142,10 @@ const Home = () => {
                 </div>
 
 
-
-                {/* <div className='home-image-part'>
+{/* 
+                <div className='home-image-part'>
                     <img src={profileImage}></img>
-                </div> */}
+                </div>  */}
 
             </div>
         </div>

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className='footer-part'>
 
 
-        <h1>David</h1>
+        <h1>Davit</h1>
         <ul>
           <a href='#Home'><li>Home</li></a>
           <a href='#About'> <li>About</li></a>
@@ -28,7 +28,7 @@ const Footer = () => {
           <li>  <a href='https://www.instagram.com/davo1301/' target='_blank'><BsInstagram></BsInstagram> </a></li>
         </ul>
 
-        <span className='allrights-reserved'>© David 2023 All Rights Reserved</span>
+        <span className='allrights-reserved'>© Davit 2024 All Rights Reserved</span>
 
       </div>
 

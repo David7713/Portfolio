@@ -11,7 +11,7 @@ const NavigationBar = () => {
     <div>
 
       <div className='nav-bar-container'>
-        <a href='#Home'><div className='logo-part'>David</div></a>
+        <a href='#Home'><div className='logo-part'>Davit</div></a>
         <ul className={isMobile ? "pages-mobile" : 'pages'}
 
           onClick={() => setIsMobile(false)}  >
