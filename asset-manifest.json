@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.109c2dde.css",
-    "main.js": "/Portfolio/static/js/main.69a14a91.js",
+    "main.js": "/Portfolio/static/js/main.cfd553fe.js",
+    "static/media/BookingApp-Screenshot.png": "/Portfolio/static/media/BookingApp-Screenshot.f69640a6f7338fe59d19.png",
     "static/media/Portal-Screenshot.png": "/Portfolio/static/media/Portal-Screenshot.dd0f43f3e8252f748309.png",
+    "static/media/SlotGame-Screenshot.png": "/Portfolio/static/media/SlotGame-Screenshot.19e869a330f55a629eba.png",
     "static/media/Weather-Screenshot.png": "/Portfolio/static/media/Weather-Screenshot.586553d45a04afa7ed1a.png",
     "static/media/Belote-Screenshot.png": "/Portfolio/static/media/Belote-Screenshot.38660ca5353d717ed8ad.png",
+    "static/media/RateShift-Screenshot.png": "/Portfolio/static/media/RateShift-Screenshot.3e613a01d1e5d5a4034a.png",
     "static/media/Rare-Screenshot.png": "/Portfolio/static/media/Rare-Screenshot.cfe597337085444e511a.png",
-    "static/media/David CV.pdf": "/Portfolio/static/media/David CV.e884fb7fd1287d5bc8cb.pdf",
+    "static/media/Davit CV.pdf": "/Portfolio/static/media/Davit CV.3527fa5f2e1ba864bf19.pdf",
     "index.html": "/Portfolio/index.html",
     "main.109c2dde.css.map": "/Portfolio/static/css/main.109c2dde.css.map",
-    "main.69a14a91.js.map": "/Portfolio/static/js/main.69a14a91.js.map"
+    "main.cfd553fe.js.map": "/Portfolio/static/js/main.cfd553fe.js.map"
   },
   "entrypoints": [
     "static/css/main.109c2dde.css",
-    "static/js/main.69a14a91.js"
+    "static/js/main.cfd553fe.js"
   ]
 }
