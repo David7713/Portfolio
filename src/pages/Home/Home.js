@@ -20,7 +20,7 @@ const Home = () => {
                 <div className='home-icons-part'>
                     <ul>
                         <li>  <a href='https://github.com/David7713' target='_blank'><FiGithub></FiGithub></a></li>
-                        <li>  <a href='https://www.linkedin.com/in/david-harutyunyan-2ab756238/' target='_blank'><FiLinkedin></FiLinkedin> </a></li>
+                        <li>  <a href='https://www.linkedin.com/in/davit-harutyunyan-2ab756238/' target='_blank'><FiLinkedin></FiLinkedin> </a></li>
                         <li>  <a href='https://www.instagram.com/davo1301/' target='_blank'><FiInstagram></FiInstagram> </a></li>
                     </ul>
                 </div>

@@ -24,7 +24,7 @@ const Footer = () => {
 
         <ul className='footer-part-icons'>
           <li>  <a href='https://github.com/David7713' target='_blank'><BsGithub></BsGithub></a></li>
-          <li>  <a href='https://www.linkedin.com/in/david-harutyunyan-2ab756238/' target='_blank'><BsLinkedin></BsLinkedin> </a></li>
+          <li>  <a href='https://www.linkedin.com/in/davit-harutyunyan-2ab756238/' target='_blank'><BsLinkedin></BsLinkedin> </a></li>
           <li>  <a href='https://www.instagram.com/davo1301/' target='_blank'><BsInstagram></BsInstagram> </a></li>
         </ul>
 
