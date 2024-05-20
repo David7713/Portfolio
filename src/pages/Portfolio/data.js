@@ -66,10 +66,10 @@ const data = [
     {
         "id": 6,
         "image":SlotGameImage,
-        "title":"SlotGame",
+        "title":"Game",
         "description":"An engaging slot game packed with adventures",
-        "link":"https://david7713.github.io/Weather-App/",
-        "github":"https://github.com/David7713/Slot-Game"
+        "link":"https://david7713.github.io/Game/",
+        "github":"https://github.com/David7713/Game"
         
         
     }
