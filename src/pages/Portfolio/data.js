@@ -9,16 +9,17 @@ import PMDImage from "../../assets/Portfolio-Screenshots/PMDScreenshot.png"
 import DashboardIamge from "../../assets/Portfolio-Screenshots/DashboardScreenshot.jpg"
 import ConstructionImage from "../../assets/Portfolio-Screenshots/ConstructionScreenshot.jpg"
 import FinancialImage from "../../assets/Portfolio-Screenshots/FinancialScreenshot.jpg"
-
+import NexusImage from "../../assets/Portfolio-Screenshots/NexusScreenshot.png"
+import LearnOnImage from "../../assets/Portfolio-Screenshots/LearnOnScreenshot.png"
 
 const data = [
     {
         "id": 1,
-        "image": portalImage,
-        "title": "Portal",
-        "description": "Portal is a user-friendly tourism website",
-        "link": "https://david7713.github.io/Project-Portal/",
-        "github": "https://github.com/David7713/Project-Portal",
+        "image": NexusImage,
+        "title": "Nexus",
+        "description": "Nexus Digital Marketing Agency",
+        "link": "http://nexusagency.am/",
+        "github": "https://github.com/David7713/Nexus",
 
 
     }, {
@@ -71,11 +72,11 @@ const data = [
     ,
     {
         "id": 6,
-        "image": SlotGameImage,
-        "title": "Game",
-        "description": "An engaging slot game packed with adventures",
-        "link": "https://david7713.github.io/Game/",
-        "github": "https://github.com/David7713/Game"
+        "image": portalImage,
+        "title": "Portal",
+        "description": "Portal is a user-friendly tourism website",
+        "link": "https://david7713.github.io/Project-Portal/",
+        "github": "https://github.com/David7713/Project-Portal",
 
 
     }
@@ -113,8 +114,21 @@ const data = [
 
     }
     ,
+
     {
         "id": 10,
+        "image": LearnOnImage,
+        "title": "LearnOn Educational Platform",
+        "description": "Platform for beginner programmers with courses",
+        "link": "https://github.com/David7713/LearnOn",
+        "github": "https://github.com/David7713/LearnOn"
+
+
+    },
+    ,
+    
+    {
+        "id": 11,
         "image": ConstructionImage,
         "title": "Construction Website",
         "description": "Professional website showcasing expertise in construction services.",
@@ -124,12 +138,23 @@ const data = [
 
     },
     {
-        "id": 11,
+        "id": 12,
         "image": weatherImage,
         "title": "Weather",
         "description": "Weather App with Forecast",
         "link": "https://david7713.github.io/Weather-App/",
         "github": "https://github.com/David7713/Weather-App"
+
+
+    }
+    ,
+    {
+        "id": 13,
+        "image": SlotGameImage,
+        "title": "Game",
+        "description": "An engaging slot game packed with adventures",
+        "link": "https://david7713.github.io/Game/",
+        "github": "https://github.com/David7713/Game"
 
 
     }
