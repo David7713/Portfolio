@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.109c2dde.css",
-    "main.js": "/Portfolio/static/js/main.8bc71419.js",
+    "main.js": "/Portfolio/static/js/main.7905f79b.js",
+    "static/media/NexusScreenshot.png": "/Portfolio/static/media/NexusScreenshot.2c5dbe8064d58e6109a0.png",
     "static/media/BookingApp-Screenshot.png": "/Portfolio/static/media/BookingApp-Screenshot.f69640a6f7338fe59d19.png",
     "static/media/PMDScreenshot.png": "/Portfolio/static/media/PMDScreenshot.74f30df16c972ecf7a73.png",
     "static/media/Portal-Screenshot.png": "/Portfolio/static/media/Portal-Screenshot.dd0f43f3e8252f748309.png",
@@ -9,6 +10,7 @@
     "static/media/Weather-Screenshot.png": "/Portfolio/static/media/Weather-Screenshot.586553d45a04afa7ed1a.png",
     "static/media/Belote-Screenshot.png": "/Portfolio/static/media/Belote-Screenshot.38660ca5353d717ed8ad.png",
     "static/media/RateShift-Screenshot.png": "/Portfolio/static/media/RateShift-Screenshot.3e613a01d1e5d5a4034a.png",
+    "static/media/LearnOnScreenshot.png": "/Portfolio/static/media/LearnOnScreenshot.7bae0742f3c8c4d61387.png",
     "static/media/Rare-Screenshot.png": "/Portfolio/static/media/Rare-Screenshot.cfe597337085444e511a.png",
     "static/media/DashboardScreenshot.jpg": "/Portfolio/static/media/DashboardScreenshot.baf0de35e8f87514cdda.jpg",
     "static/media/ConstructionScreenshot.jpg": "/Portfolio/static/media/ConstructionScreenshot.6c0d6b0d763d72b25d45.jpg",
@@ -16,10 +18,10 @@
     "static/media/Davit CV.pdf": "/Portfolio/static/media/Davit CV.35e64dd55e263c0c627d.pdf",
     "index.html": "/Portfolio/index.html",
     "main.109c2dde.css.map": "/Portfolio/static/css/main.109c2dde.css.map",
-    "main.8bc71419.js.map": "/Portfolio/static/js/main.8bc71419.js.map"
+    "main.7905f79b.js.map": "/Portfolio/static/js/main.7905f79b.js.map"
   },
   "entrypoints": [
     "static/css/main.109c2dde.css",
-    "static/js/main.8bc71419.js"
+    "static/js/main.7905f79b.js"
   ]
 }
