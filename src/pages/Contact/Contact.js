@@ -82,8 +82,8 @@ const Contact = () => {
           <h4>Talk to me</h4>
           <div>
             <h4>Email</h4>
-            <span>Davo00771339@gmail.com</span>
-            <a href='mailto:Davo00771330@gmail.com' className='project-button'>
+            <span>davitharutyunyan1301@gmail.com            </span>
+            <a href='mailto:davitharutyunyan1301@gmail.com' className='project-button'>
               Write me <BsArrowRightShort className='project-button-icon'></BsArrowRightShort>
             </a>
           </div>
