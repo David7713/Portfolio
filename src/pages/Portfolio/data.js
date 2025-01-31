@@ -11,6 +11,7 @@ import ConstructionImage from "../../assets/Portfolio-Screenshots/ConstructionSc
 import FinancialImage from "../../assets/Portfolio-Screenshots/FinancialScreenshot.jpg"
 import NexusImage from "../../assets/Portfolio-Screenshots/NexusScreenshot.png"
 import LearnOnImage from "../../assets/Portfolio-Screenshots/LearnOnScreenshot.png"
+import AppollyImage from "../../assets/Portfolio-Screenshots/Appolly-Screenshot.png"
 
 const data = [
     {
@@ -57,10 +58,20 @@ const data = [
 
 
     },
-
-    ,
+    
     {
         "id": 5,
+        "image": AppollyImage,
+        "title": "Responsive Landin Page",
+        "description": "Modern, responsive, engaging Website",
+        "link": "https://github.com/David7713/Appolly",
+        "github": "https://github.com/David7713/Appolly"
+
+
+    },
+    ,
+    {
+        "id": 6,
         "image": RateShiftImage,
         "title": "RateShift",
         "description": "Fast and efficient currency exchange platform.",
@@ -71,7 +82,7 @@ const data = [
     }
     ,
     {
-        "id": 6,
+        "id": 7,
         "image": portalImage,
         "title": "Portal",
         "description": "Portal is a user-friendly tourism website",
@@ -82,7 +93,7 @@ const data = [
     }
     ,
     {
-        "id": 7,
+        "id": 8,
         "image": BookingApp,
         "title": "Booking App",
         "description": "Explore the world with our seamless travel app.",
@@ -93,7 +104,7 @@ const data = [
     }
     ,
     {
-        "id": 8,
+        "id": 9,
         "image": beloteImage,
         "title": "Belote",
         "description": "An Information Website",
@@ -104,7 +115,7 @@ const data = [
     },
 
     {
-        "id": 9,
+        "id": 10,
         "image": DashboardIamge,
         "title": "Admin Dashboard",
         "description": "Robust admin dashboard with Node.js, Express.js, and MySQL for efficient management.",
@@ -116,7 +127,7 @@ const data = [
     ,
 
     {
-        "id": 10,
+        "id": 11,
         "image": LearnOnImage,
         "title": "LearnOn Educational Platform",
         "description": "Platform for beginner programmers with courses",
@@ -128,7 +139,7 @@ const data = [
     ,
     
     {
-        "id": 11,
+        "id": 12,
         "image": ConstructionImage,
         "title": "Construction Website",
         "description": "Professional website showcasing expertise in construction services.",
@@ -138,7 +149,7 @@ const data = [
 
     },
     {
-        "id": 12,
+        "id": 13,
         "image": weatherImage,
         "title": "Weather",
         "description": "Weather App with Forecast",
@@ -149,7 +160,7 @@ const data = [
     }
     ,
     {
-        "id": 13,
+        "id": 14,
         "image": SlotGameImage,
         "title": "Game",
         "description": "An engaging slot game packed with adventures",
