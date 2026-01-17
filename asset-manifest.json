@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.109c2dde.css",
-    "main.js": "/Portfolio/static/js/main.5e7cc78c.js",
+    "main.js": "/Portfolio/static/js/main.d73a0a49.js",
     "static/media/NexusScreenshot.png": "/Portfolio/static/media/NexusScreenshot.2c5dbe8064d58e6109a0.png",
     "static/media/BookingApp-Screenshot.png": "/Portfolio/static/media/BookingApp-Screenshot.f69640a6f7338fe59d19.png",
     "static/media/PMDScreenshot.png": "/Portfolio/static/media/PMDScreenshot.74f30df16c972ecf7a73.png",
@@ -16,13 +16,13 @@
     "static/media/ConstructionScreenshot.jpg": "/Portfolio/static/media/ConstructionScreenshot.6c0d6b0d763d72b25d45.jpg",
     "static/media/FinancialScreenshot.jpg": "/Portfolio/static/media/FinancialScreenshot.92a1dc9903407a959a48.jpg",
     "static/media/Appolly-Screenshot.png": "/Portfolio/static/media/Appolly-Screenshot.8bc4a5db7977ae98bdfe.png",
-    "static/media/Davit CV.pdf": "/Portfolio/static/media/Davit CV.35e64dd55e263c0c627d.pdf",
+    "static/media/Davit CV.pdf": "/Portfolio/static/media/Davit CV.ab46da8504b651f1e5d0.pdf",
     "index.html": "/Portfolio/index.html",
     "main.109c2dde.css.map": "/Portfolio/static/css/main.109c2dde.css.map",
-    "main.5e7cc78c.js.map": "/Portfolio/static/js/main.5e7cc78c.js.map"
+    "main.d73a0a49.js.map": "/Portfolio/static/js/main.d73a0a49.js.map"
   },
   "entrypoints": [
     "static/css/main.109c2dde.css",
-    "static/js/main.5e7cc78c.js"
+    "static/js/main.d73a0a49.js"
   ]
 }
